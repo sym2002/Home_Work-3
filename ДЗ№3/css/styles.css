@@ -1,0 +1,146 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 1366px;
+  height: 950px; 
+  background-color: #f9f9f9;
+}
+.wrapper{
+  width: 1060px;
+  height: 950px;
+  background-color: #ffffff;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-left: 150px;
+  margin-right: 150px;
+    -webkit-box-shadow: 0 0 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 16px -6px rgba(0,0,0,0.75);
+    box-shadow: 0 0 16px -6px rgba(0,0,0,0.75);
+}
+.logo {
+    display: block;
+  width: 145px;
+  height: 40px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-size: 15px;
+}
+
+.top-menu {
+    list-style-type: none;
+    display: inline;
+    margin: 55px 0 40px;
+    width: 1030px;
+    text-align: left;
+}
+.top-menu ul {
+  font-size:0;
+  line-height:0;
+  letter-spacing:0;
+  margin-bottom: 40px;
+  }
+
+.top-menu li {
+display: inline-block;
+font-size:15px;
+line-height: 45px;
+height: 45px;
+background-color: #515151;
+/*padding-left: 20px;*/
+padding: 7px 102px 8px 105px;
+}
+
+ .top-menu ul li a{
+ color: #ffffff;
+ text-decoration:none;
+}
+
+.top-menu ul li:hover{
+ background-color: #333333; 
+ color: black;
+}
+
+
+.left_menu  {
+  font-size:0;
+  /*line-height:0px;*/
+  letter-spacing:-1px;
+  margin-bottom: 30px;
+  width: 245px;
+  float: left;
+}
+
+
+.left_menu li {
+    display: block;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 35px;
+    padding-right: 45px;
+    width: 235px;
+    height: 40px;
+    margin-bottom: -1px;
+    text-align:left;
+    border: 1px solid #e1e1e1;
+    list-style-type: none;
+}
+
+.left_menu ul li a{
+background-color: #ffffff;
+text-decoration: none;
+color: #bebebe; 
+}
+
+.left_menu ul :hover {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+p {
+  font-size: 12px;
+  margin-left: 360px;
+  margin-top: 35px;
+  margin-right: 12px;
+  width: 640px;
+  color: #2c2c2c;
+  line-height: 20px;
+}
+
+.velo{
+  display: block;
+  margin-left: 360px;
+  margin-top: 34px;
+  border: 0 solid #c8c8c8;
+}
+
+.footer {
+    list-style-type: none;
+    display: inline-block;
+    background: #e1e1e1;
+    font-size: 14pt;
+    margin: 55px 40px;
+    width: 1030px;
+    }
+
+
+.footer ul{
+  color: #2c2c2c;  
+  padding-right: 26px;
+  }
+
+.footer  li{
+  display: inline-block; 
+  padding: 10px 30px 10px 30px;
+  }
+
+.footer  li a{
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.footer   a:hover{
+  text-decoration: underline;
+}
+
+#reg  {
+  float: right;
+} 
